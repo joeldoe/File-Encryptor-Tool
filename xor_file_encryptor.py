@@ -1,5 +1,5 @@
+# Implements XOR encryption on the file bytes
 def xor_encrypt(data, key):
-    # Encrpyting using XOR and the key provided
     data = bytearray(data) # Converting the byte string to a byte array
 
     '''
@@ -12,8 +12,11 @@ def xor_encrypt(data, key):
 
     return data.decode()
 
+# Implements XOR decryption on the file bytes
 def xor_decrypt(data, key):
     data = bytearray(data)
+
     for index, value in enumerate(data):
         data[index] = value ^ int(key)
+        
     return data.decode()

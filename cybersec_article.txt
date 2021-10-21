@@ -1,0 +1,65 @@
+Why is Cybersecurity Important in 2021? Everything You Need to Know
+
+Let’s face it; we live in a digital world. Our work lives, personal lives, and finances have all begun gravitating toward the world of the internet, mobile computing, and electronic media. Unfortunately, this widespread phenomenon makes us more vulnerable than ever to malicious attacks, invasions of privacy, fraud, and other such unpleasantries.
+
+That’s why cybersecurity is such a vital part of a secure and well-ordered digital world. Cybersecurity keeps us safe from hackers, cyber criminals, and other agents of fraud. But how good is your cybersecurity knowledge?
+
+We’ll help raise your cybersecurity awareness with this article. We’ll explore such critical topics why there’s a need for cybersecurity, what kinds of threats are out there, the best security measures, and what you can do personally to be more secure when using the internet.
+
+
+What is cyber security and why it is needed?
+Cybercrimes have cost the world $2 trillion so far in 2019, according to recent research. Cybersecurity Ventures predicted in 2017 that damages would hit $6 trillion by 2021, prompting global spending of roughly $10 billion in cyber-security measures by 2027 to protect against these catastrophic losses.
+
+But it’s not just the big companies and organizations that get hit. Average, everyday consumers experience phishing schemes, ransomware attacks, identity theft, data breaches, and financial losses. For instance, it takes just five minutes to hack an internet-connected device, which includes your smartphone, smartwatch, on-board automobile computer, smart television, and home control systems, according to a Netscout report.
+
+This means the more we rely on the internet, the more we need good cybersecurity in all its forms. But first, let’s see what we’re up against.
+
+
+The Different Forms of Cybersecurity Threats
+When it comes to infiltrating your system, hackers have an entire toolbox worth of tricks at their disposal. For instance:
+
+1.    Denial-of-service (DoS) Attacks 
+    Hackers flood a network with requests to exhaust bandwidth. In many cases, DoS attacks are meant to be more of a nuisance than anything else.
+2.    Man-in-the-middle (MitM) Attack 
+    This attack happens when hackers insert themselves into a two-party communication. Once they’re in, they can steal data.
+3.    Phishing Attacks 
+    Phishing uses fake emails and text messages to get people to give hackers access to private information. It is one of the most regular attacks, especially against the general public.
+4.    Malware
+    This attack method is broken down into spyware, ransomware, worms, and viruses. Emails or downloads usually deliver these attacks from suspicious sites.
+5.    SQL Injection Attack
+    Hackers insert malicious code onto an SQL-using server, usually via a vulnerable website search box. Once carried out successfully, the attack lets the hacker see information otherwise kept off-limits.
+6.    Password Attack 
+    Just what it sounds like. Hackers try to crack a password, usually a poorly chosen one and gain network entry.
+    
+
+What Does Good Cyber-Security Look Like?
+Considering the dizzying number of cyber-attacks mentioned previously, you can see the importance of employing active cybersecurity measures. Fortunately, there are many useful cybersecurity methods that you can practice both at home and at work. Keep these in mind, and you’ll reduce the likelihood of having a cybercrime on your hands!
+
+    Practice Good Password Selection
+    Do you still have a “password” as your default password? If so, then shame on you! The ideal strong password is between 8 and 12 characters and includes upper and lower case letters, at least one number, and a unique character (such as !?, @). Don’t use simple passwords, and don’t use anything based on easy to find information about yourself.
+    Keep Your Wi-Fi Secure 
+    Speaking of passwords, don’t forget to protect your Wi-Fi network. Use WPA2 (Wi-Fi Protected Access version 2) for your security method.
+    Install Antivirus Software 
+    Fortunately, many internet providers bundle in some halfway decent antivirus software with their service. If your provider doesn’t, then pick up something from Norton, McAfee or Symantec; it’s not expensive, and it’ll pay for itself in the long run. Also, when you install the program, make sure it’s running!
+    Avoid Suspicious Emails and Texts 
+    Don’t recognize the email address or the phone number of the text sender? Don’t open it up, don’t reply. Don’t do anything other than deleting it! Many of these are the opening gambit in a phishing scam or identity theft attempt.
+    Use Firewalls and Encryption
+    Firewalls help regulate network traffic, both inbound and outbound. That includes blocking off certain sketchy websites. Encryption is essential if you’re dealing with financial transactions, especially if you’re a business owner. Encryption software scrambles the data so that even if the information falls in the wrong hands, it’s useless unless the crooks also have access to the encryption key.
+    Don’t Lose Track of Mobile Devices 
+    One of the easiest yet most successful ways for hackers to get into your network is to just physically grab your laptop, tablet, or smartphone and log in. That’s why you should always make sure your devices never leave your sight when you go out. Never leave them unattended in public or alone with people you don’t know or trust. Furthermore, don’t forget to lock them with strong passwords!
+    Practice Good Bluetooth and GPS Usage 
+    Hackers can penetrate your system by using your GPS or Bluetooth connection. Your GPS lets people know where you are, so turn it off if you don’t need it. The same goes for Bluetooth; hackers can use it to gain access to your phone.
+    Take Courses Related to Cyber-Security 
+    The more you know about cybersecurity, the more secure you can make your network, and the greater the peace of mind you will have. There are a host of online courses you can take to become better informed.
+
+
+Do You Want a Career in Cybersecurity?
+With all of this increased awareness in public and private sectors regarding cybersecurity, it should come as no surprise that there are consequently many opportunities to start a career in this intriguing field.
+
+Whether you want to learn more about cybersecurity for personal use, upskill for your job position, or launch a new career, Simplilearn offers the Introduction to Cyber Security Course for Cyber Security Beginners. This introductory course will give you a foundational look at today’s cybersecurity landscape and how to evaluate and manage security protocols in information processing systems. 
+
+You will learn about information security concepts and technologies, the principles behind security architecture, how to mitigate vulnerabilities and threats to your systems, and how to implement risk and incident management to protect your infrastructure from a cyber attack.
+
+Once you complete this course, you can take your newfound cybersecurity knowledge to the next level by checking out one of our many other exciting and useful offerings, such as the CEH (v10) - Certified Ethical Hacking Course or the Cyber-Security Expert Master’s Program.
+
+Check out Simplilearn’s offerings today. They’ll not only help you become savvier about cybersecurity but also will lay the groundwork for a better, more profitable career!

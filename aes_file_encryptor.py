@@ -1,31 +1,38 @@
-from Crypto.Cipher import AES # importing AES object from pycrypto module
-import hashlib # importing hashlib module to use SHA-256 function
+from Crypto.Cipher import AES   # Importing AES object from pycrypto module
+import hashlib                  # Importing hashlib module to use SHA-256 function
 
-# Padding input to make it a multiple of 16 because AES input blocks are of 16 bytes (128 bit)
-def pad_input(file):
-    while(len(file) % 16 != 0):
-        file += b'0' # Padding null bytes
-    return file
+# Padding the file bytes to make it a multiple of 16 because AES is a block cipher which takes 16 bytes(128-bit) as input
+def pad_input(file_bytes):
+    while(len(file_bytes) % 16 != 0):
+        file_bytes += b'0'            # Padding null bytes at the end
+    return file_bytes
 
-#def encrypt(filename, password):
+# Implements AES encryption on the file bytes
 def encrypt(data, password):
-    # Creating the AES cipher
-    key = hashlib.sha256(password.encode()).digest() # to create a 256-bit key (14 rounds in AES)
+    # To create a 256-bit key (14 rounds in AES)
+    key = hashlib.sha256(password.encode()).digest()
+
+    # Initializing the AES cipher
     mode = AES.MODE_CBC
-    IV = "MAJORPROJECT2021" # Initialization Vector is also of 16 bytes
+    IV = "MAJORPROJECT2021"              # Initialization Vector is also of 16 bytes
     aes_cipher = AES.new(key, mode, IV)
     
     padded_data = pad_input(data.encode())
     encrypted_data  = aes_cipher.encrypt(padded_data)
+
     return encrypted_data
 
-#def decrypt(filename, password)
+# Implements AES decryption on the file bytes
 def decrypt(data, password):
-    key = hashlib.sha256(password.encode()).digest() # to create a 256-bit key (14 rounds in AES)
+    # To create a 256-bit key (14 rounds in AES)
+    key = hashlib.sha256(password.encode()).digest()
+
+    # Initializing the AES cipher
     mode = AES.MODE_CBC
-    IV = "MAJORPROJECT2021" # Initialization Vector is also of 16 bytes
+    IV = "MAJORPROJECT2021"              # Initialization Vector is also of 16 bytes
     aes_cipher = AES.new(key, mode, IV)
 
     decrypted_data = aes_cipher.decrypt(data)
     decrypted_data = decrypted_data.rstrip(b'0')
+
     return decrypted_data
