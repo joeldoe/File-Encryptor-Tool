@@ -1,3 +1,13 @@
+'''
+BTECH MAJOR PROJECT (2021-2022)
+
+GROUP MEMBERS:
+JOEL ELDOE
+ARNAV ANAND
+VIDYA LAD
+'''
+
+# importing the defined modules for XOR and AES
 import xor_file_encryptor
 import aes_file_encryptor
 from Crypto.Cipher import AES # importing AES object from pycrypto module
@@ -54,7 +64,7 @@ filename = input("\nEnter the name of the file: ")
 password = input("Enter the password: ")
 
 if(fe.input_validation(filename,password)):
-    #try:
+    try:
         choice = input("What action do you want to perform? (e|d): ")
         if(choice == 'e'):
             fe.encrypt(filename, password)
@@ -62,10 +72,11 @@ if(fe.input_validation(filename,password)):
             fe.decrypt(filename, password)
         else:
             print("Wrong choice!!!")
-    #except Exception as e:
-    #    print(f"\nError Occurred: {e}")
-    #    print("Maybe you entered a wrong password!")
-    #finally:
+    except Exception as e:
+        print(f"\nError Occurred: {e}")
+        print("Maybe you entered a wrong password!")
+        print("Or maybe the file format isn't supported! (Only use '.txt' or '.csv' files)")
+    finally:
         print("\nExiting program.")
 else:
     pass

@@ -4,7 +4,7 @@ import hashlib # importing hashlib module to use SHA-256 function
 # Padding input to make it a multiple of 16 because AES input blocks are of 16 bytes (128 bit)
 def pad_input(file):
     while(len(file) % 16 != 0):
-        file += b'0'
+        file += b'0' # Padding null bytes
     return file
 
 #def encrypt(filename, password):
