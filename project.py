@@ -23,11 +23,9 @@ class File_Encryptor:
     def input_validation(self, filename, password):
         flag = True
         if(len(password) >= 8 and len(password) <= 255):
-            try:
-                f = open(filename, 'rb')
-            except OSError as e:
-                print(f"\n[{colors.RED}-{colors.RESET}] Error Occurred: {e}\n")
+            if not(os.path.isfile(filename)):
                 flag = False
+                print("This file doesn't exist in this directory!")
         else:
             print(f"\n[{colors.RED}-{colors.RESET}] Error Occurred: Password length should be between 8-255!\n")
             flag = False
