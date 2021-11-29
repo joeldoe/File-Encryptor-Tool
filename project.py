@@ -105,7 +105,8 @@ if(fe.input_validation(filename,password)):
         print(f"[{colors.RED}-{colors.RESET}] Maybe you entered a wrong password!")
         print(f"[{colors.RED}-{colors.RESET}] Or maybe the file format isn't supported! (Only use '.txt' or '.csv' files)")
     finally:
-        os.system('rm temp.txt')
+        if(os.path.isfile('./temp.txt')):
+            os.system('rm ./temp.txt')
         print(f"\n[{colors.GREEN}+{colors.RESET}] Exiting program\n")
 else:
     pass
