@@ -58,10 +58,10 @@ class File_Encryptor:
                 f.write(aes_encrypted_file_bytes)
                 f.close()
 
-                messagebox.showinfo("RESULT", f"'{filename+'.enc'}': encrypted file has been created successfully!")
+                messagebox.showinfo("RESULT", "File has been encrypted successfully!")
 
             except Exception as e:
-                messagebox.showerror("ERROR", f"{e}")
+                messagebox.showerror("ERROR", "File type not supported for encryption!")
 
     # Implements file decryption
     def decrypt(self):
@@ -83,10 +83,10 @@ class File_Encryptor:
                 f.write(xor_decrypted_file_bytes.encode())
                 f.close()
 
-                messagebox.showinfo("RESULT", f"'{filename[:-4]+'.dec'}': decrypted file has been created successfully!")
+                messagebox.showinfo("RESULT", "File has been decrypted successfully!")
 
             except Exception as e:
-                messagebox.showerror("ERROR", f"{e}")
+                messagebox.showerror("ERROR", "Invalid file type or incorrect password!")
 
 # Main program
 fe = File_Encryptor()
@@ -137,6 +137,6 @@ if(os.path.isfile('./temp.txt')):
     os.system('rm ./temp.txt')
 
 # Exit message
-messagebox.showinfo("BYE BYE", "Have a good day!")
+messagebox.showinfo("BYE", "Have a good day!")
 
 # End of program
